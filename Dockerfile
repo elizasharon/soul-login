@@ -12,7 +12,7 @@ ADD /var/lib/jenkins/workspace/docker_soul/target/LoginService_Backend.jar Login
 #ENTRYPOINT ["java","-jar","spring-boot-react-docker-demo-0.0.1-SNAPSHOT"]
 
 
-ENTRYPOINT ["java","-jar","LoginService_Backend"]
+ENTRYPOINT ["java","-jar","LoginService_Backend.jar"]
 
 
 
